@@ -23,7 +23,6 @@ OTHER_OBJ := $(OTHER_SRC:.c=.o)
 	$(CC) -o $@ $(CFLAGS) -c $<
 
 all:$(OUT)
-123
 $(OUT):$(OBJ)
 	$(CC) -o $@ $(LDFLAGS) $^
 
